@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Age calculator app</title>
+
+</head>
+<body>
+
+  <div class="content-container">
+    <div class="input-row">
+      <div class="input-day">
+        <label for="day">DAY</label><br>
+        <input type="number" id="day" name="day" placeholder="DD" min="1">
+      </div>
+      <div class="input-month">
+        <label for="month">MONTH</label><br>
+        <input type="number" id="month" name="month" placeholder="MM">
+      </div>
+      <div class="input-year">
+        <label for="year">YEAR</label><br>
+        <input type="number" id="year" name="year" placeholder="YYYY">
+      </div>
+    </div>
+    <div class="division-part">
+      <hr class="division-line">
+      <button class="submit-button">
+        <img class="submit-arrow" src="assets/images/icon-arrow.svg" alt="submit">
+      </button>
+      <hr class="division-line right-line">
+    </div>
+    <div class="results">
+      <span id="year-result">--</span> years<br>
+      <span id="month-result">--</span> months<br>
+      <span id="day-result">--</span> days<br>
+    </div>
+  </div>
+
+</body>
+</html>
